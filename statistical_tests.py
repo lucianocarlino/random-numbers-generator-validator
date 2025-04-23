@@ -81,8 +81,10 @@ def mean_up_and_down_test(test: list[int], chi_squared_an2: float):
         "resultado": chi_squared < chi_squared_an2
     }
 
+'''
 print(f"Prueba de los promedios {mean_test([0.01, 0.079, 0.168, 0.858, 0.901, 0.74, 0.713, 0.478, 0.277, 0.019, 0.548, 0.426], 0.957)}")
 print(f"Prueba de frecuencia {frecuency_test([0.01, 0.079, 0.168, 0.858, 0.901, 0.74, 0.713, 0.478, 0.277, 0.019, 0.548, 0.426], 3, 0.65)}")
 print(f"Prueba de series {series_test([0.01, 0.079, 0.168, 0.858, 0.901, 0.74, 0.713, 0.478, 0.277, 0.019, 0.548, 0.426], 2, 0.675)}")
 print(f"Prueba de Kolmogorov-Smirnov {ks_test([0.01, 0.079, 0.168, 0.858, 0.901, 0.74, 0.713, 0.478, 0.277, 0.019, 0.548, 0.426], 0.375)}")
 print(f"Prueba de up and down {mean_up_and_down_test([0.01, 0.079, 0.168, 0.858, 0.901, 0.74, 0.713, 0.478, 0.277, 0.019, 0.548, 0.426], 7.81)}")
+'''

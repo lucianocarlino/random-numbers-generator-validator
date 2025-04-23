@@ -120,8 +120,10 @@ def congruencial_adivito(seed: list[int], m: int, total: int, decimals: int = 4)
         "resultado": random_numbers
     }
 
+'''
 print(f"Parte central del cuadrado {parte_central_cuadrado(123, 3, 5)}")
 print(f"Lehmer {lehmer(4122, 76, 5)}")
 print(f"Congruencial mixto {congruencial_mixto(4, 5, 7, 8, 5)}")
 print(f"Congruencial multiplicativo {congruencial_multiplicativo(1317, 5631, 547, 6, 3)}")
 print(f"Congruencial aditivo {congruencial_adivito([1942, 2372, 5131, 3317], 5147, 6, 3)}")
+'''

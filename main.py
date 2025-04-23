@@ -91,7 +91,7 @@ def main():
     if result:
         print("No se rechazo la hipotesis de que los numeros provienen de un universo uniformemente distribuido.")
     else:
-        print("Se rechaza la hipotesisde que los numeros provienen de un universo uniformemente distribuido.")
+        print("Se rechaza la hipotesis de que los numeros provienen de un universo uniformemente distribuido.")
 
 if __name__ == "__main__":
     main()
